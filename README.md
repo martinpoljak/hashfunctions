@@ -9,8 +9,8 @@ if it's installed as gem.
 
 Some example:
 
-    require "general-hash-functions/extension"
-    hash = GeneralHashFunctionsExt::djbhash("some string")
+    require "general-hash-functions"
+    hash = GeneralHashFunctions::djbhash("some string")
     # will return the 395673328
     
 See description of all contained functions at Arash Partow's page:

@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'rubygems'
 require 'rake'
+require 'rake/extensiontask'
 
 spec = Gem::Specification.new do |s|
   s.name = "hashfunctions"
@@ -14,6 +15,7 @@ spec = Gem::Specification.new do |s|
   s.version = "1.0.0"
   s.files = `git ls-files`.split("\n")
   s.add_development_dependency("rake", ">= 0")
+  s.add_development_dependency("rake-compiler", ">= 0")
 end
 
 Gem::PackageTask.new(spec) do |pkg|
