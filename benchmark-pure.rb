@@ -1,9 +1,10 @@
 # encoding: utf-8
 # (c) 2012 Martin Kozák (martinkozak@martinkozak.net)
 
+require "rubygems"
 require "general-hash-functions"
 
-string = "Příliš žluťoučký kůň úpěl ďábelské ódy." * 4 * 1000 * 10
+string = "Příliš žluťoučký kůň úpěl ďábelské ódy." * 4 * 1000 * 100
 
 ###
 
