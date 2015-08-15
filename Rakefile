@@ -5,8 +5,8 @@ require 'rake/extensiontask'
 
 spec = Gem::Specification.new do |s|
   s.name = "hashfunctions"
-  s.email = "martinkozak@martinkozak.net"
-  s.author = "Martin Kozák"
+  s.email = "martin@poljak.cz"
+  s.author = "Martin Poljak"
   s.platform = Gem::Platform::RUBY
   s.summary = "11 fast hash functions for general purpose non-cryptographic use."
   s.description = "11 fast hash functions for general purpose non-cryptographic use implemented originally by Arash Partow. Uses the C extension if appropriate gem is available."
