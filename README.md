@@ -30,4 +30,3 @@ See `LICENSE.txt` for further details.
 [2]: http://www.partow.net/
 [3]: http://github.com/martinkozak/hashfunctions-extension
 [4]: http://www.martinkozak.net/
-s
